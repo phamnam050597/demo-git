@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>giá trị lớn nhất</title>
+</head>
+<body>
+<script>
+    let i=[-10, 2, 3, 5, 4, 9, 8];
+    let max = i[0];
+    let index = 0;
+    for (a=1;a<i.length;a ++){
+        if (i[a]>max){
+            max = i[a];
+            index= a;
+        }
+    }
+    document.write(max + ' giá trị lớn nhất ở số' + index);
+</script>
+</body>
+</html>
